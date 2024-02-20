@@ -19,7 +19,6 @@ public class HeartbeatController {
         return heartbeatSensor.get();
     }
 
-    // Nouveau endpoint pour obtenir les identifiants des jeux
     @GetMapping("/games/identifiers")
     public Collection<String> getGameIdentifiers() {
         return gameCatalog.getGameIdentifiers();

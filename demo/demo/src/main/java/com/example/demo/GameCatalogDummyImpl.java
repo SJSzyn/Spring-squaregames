@@ -12,12 +12,10 @@ public class GameCatalogDummyImpl implements GameCatalog {
 
     public GameCatalogDummyImpl() {
         this.ticTacToeGameFactory = new TicTacToeGameFactory();
-        // Any additional setup can be done here
     }
 
     @Override
     public List<String> getGameIdentifiers() {
-        // Return a dummy list of identifiers or use the TicTacToeGameFactory instance as needed
-        return Arrays.asList("TicTacToe"); // Example identifiers
+        return Arrays.asList("TicTacToe");
     }
 }
