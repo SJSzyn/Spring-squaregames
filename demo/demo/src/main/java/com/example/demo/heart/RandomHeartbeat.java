@@ -1,6 +1,8 @@
-package com.example.demo;
+package com.example.demo.heart;
 
 import java.util.Random;
+
+import com.example.demo.heart.HeartbeatSensor;
 import org.springframework.stereotype.Service;
 
 @Service

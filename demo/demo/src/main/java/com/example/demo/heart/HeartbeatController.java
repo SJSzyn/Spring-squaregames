@@ -1,8 +1,7 @@
-package com.example.demo.controller;
+package com.example.demo.heart;
 
-import com.example.demo.GameCatalog;
-import com.example.demo.GameService;
-import com.example.demo.HeartbeatSensor;
+import com.example.demo.squaregames.service.game_catalog.GameCatalog;
+import com.example.demo.squaregames.service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

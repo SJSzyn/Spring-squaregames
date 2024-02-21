@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.demo.squaregames.controller;
 
-import com.example.demo.GameCatalog;
-import com.example.demo.controller.dto.GameDTO;
+import com.example.demo.squaregames.service.game_catalog.GameCatalog;
+import com.example.demo.squaregames.controller.dto.GameDTO;
 import fr.le_campus_numerique.square_games.engine.Game;
 import fr.le_campus_numerique.square_games.engine.GameFactory;
 import org.springframework.beans.factory.annotation.Autowired;
