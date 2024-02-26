@@ -17,12 +17,6 @@ public class GameCatalogDummyImpl implements GameCatalog {
     ConnectFourGameFactory connectFourGameFactory = new ConnectFourGameFactory();
     TaquinGameFactory taquinGameFactory  = new TaquinGameFactory();
 
-
-
-//    public GameCatalogDummyImpl() {
-//        this.ticTacToeGameFactory = new TicTacToeGameFactory();
-//    }
-
     @Override
     public Collection<String> getGameIdentifiers() {
         return List.of(ticTacToeGameFactory.getGameFactoryId());
@@ -35,8 +29,6 @@ public class GameCatalogDummyImpl implements GameCatalog {
             case "taquin" -> taquinGameFactory;
             default -> ticTacToeGameFactory;
         };
-
     }
-
 
 }
