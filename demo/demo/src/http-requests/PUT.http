@@ -1,4 +1,4 @@
-PUT http://localhost:8080/users/593df8fa-f0e7-4ad7-965a-69f1f88ed9f1
+PUT http://localhost:8080/users/0fa9f79d-8d77-47aa-821a-4aff13347a08
 Content-Type: application/json
 
 {

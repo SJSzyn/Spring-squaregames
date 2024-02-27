@@ -19,7 +19,7 @@ import java.util.*;
 public class GameController {
 
     // TODO Make POST GET PUT DELETE
-    // Game creation
+    // Game creations
     @Autowired
     private GameService gameService;
 

@@ -9,8 +9,9 @@ import java.util.UUID;
 @Repository
 public class MySQLUserDAO implements UserDAO {
 
-    private List<User> users = new ArrayList<User>();
 
+    private List<User> users = new ArrayList<User>();
+//
     @Override
     public List<User> getAllUsers(){
         return this.users;
