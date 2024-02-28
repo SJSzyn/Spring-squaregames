@@ -1,8 +1,8 @@
-PUT http://localhost:8080/users/0fa9f79d-8d77-47aa-821a-4aff13347a08
+PUT http://localhost:8080/users/9
 Content-Type: application/json
 
 {
-  "firstName": "Loki",
-  "lastName": "Thor",
-  "age": 32
+  "firstName": "Hello",
+  "lastName": "World",
+  "age": 1992
 }

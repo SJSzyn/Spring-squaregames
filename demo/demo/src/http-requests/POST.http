@@ -2,7 +2,7 @@ POST http://localhost:8080/users
 Content-Type: application/json
 
 {
-  "firstName": "Mister",
-  "lastName": "Bean",
-  "age": 43
+  "firstName": "John",
+  "lastName": "Doe",
+  "age": 24
 }

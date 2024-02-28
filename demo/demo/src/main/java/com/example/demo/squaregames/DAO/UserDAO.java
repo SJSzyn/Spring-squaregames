@@ -5,9 +5,9 @@ import java.util.UUID;
 
 public interface UserDAO{
     public List<User> getAllUsers();
-    public User getUserById(UUID id);
+    public User getUserById(int id);
     public User addUser(UserCreationParam param);
-    public User updateUser(UUID id, UserCreationParam param);
-    public User deleteUser(UUID id);
+    public User updateUser(int id, UserCreationParam param);
+    public User deleteUser(int id);
 
 }

@@ -44,7 +44,7 @@ public class GameController {
     private UserDAO userDAO;
 
     private UserDTO userToDTO(User user){
-        return new UserDTO(user.getId(), user.getFirstName(), user.getLastName(), user.getAge());
+        return new UserDTO(user.getFirstName(), user.getLastName(), user.getAge(), user.getId());
 
     }
 
@@ -66,19 +66,19 @@ public class GameController {
     }
 
     @GetMapping("/users/{id}")
-    public UserDTO get(@PathVariable UUID id){
+    public UserDTO get(@PathVariable int id){
         User user = userDAO.getUserById(id);
         return userToDTO(user);
     }
 
     @PutMapping("/users/{id}")
-    public UserDTO update(@RequestBody UserCreationParam param, @PathVariable UUID id){
+    public UserDTO update(@RequestBody UserCreationParam param, @PathVariable int id){
         User updatedUser = userDAO.updateUser(id, param);
         return userToDTO(updatedUser);
     }
 
     @DeleteMapping("/users/{id}")
-    public UserDTO delete(@PathVariable UUID id){
+    public UserDTO delete(@PathVariable int id){
         User deleteUser = userDAO.deleteUser(id);
         return userToDTO(deleteUser);
     }

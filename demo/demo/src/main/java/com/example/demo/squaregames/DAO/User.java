@@ -3,21 +3,26 @@ package com.example.demo.squaregames.DAO;
 import java.util.UUID;
 
 public class User {
-
-    private UUID id;
+    private int id;
     private String firstName;
     private String lastName;
     private int age;
 
-    public User(String firstName, String lastName, int age){
-        this.id = UUID.randomUUID();
+    public User(){}
+
+    public User(String firstName, String lastName, int age, int id){
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+        this.id = id;
     }
 
-    public UUID getId(){
+    public int getId(){
         return id;
+    }
+
+    public void setId(int id){
+        this.id = id;
     }
 
 
