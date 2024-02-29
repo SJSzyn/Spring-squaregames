@@ -1,8 +1,11 @@
 package com.example.demo.squaregames.DAO;
 
-import java.util.UUID;
+import jakarta.persistence.*;
 
+@Entity
 public class User {
+
+    @Id
     private int id;
     private String firstName;
     private String lastName;
@@ -10,12 +13,12 @@ public class User {
 
     public User(){}
 
-    public User(String firstName, String lastName, int age, int id){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-        this.id = id;
-    }
+//    public User(String firstName, String lastName, int age, int id){
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//        this.age = age;
+//        this.id = id;
+//    }
 
     public int getId(){
         return id;

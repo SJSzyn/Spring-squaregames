@@ -1,9 +1,6 @@
 package com.example.demo.squaregames.controller;
 
-import com.example.demo.squaregames.DAO.User;
-import com.example.demo.squaregames.DAO.UserCreationParam;
-import com.example.demo.squaregames.DAO.UserDAO;
-import com.example.demo.squaregames.DAO.UserDTO;
+import com.example.demo.squaregames.DAO.*;
 import com.example.demo.squaregames.service.GameService;
 import com.example.demo.squaregames.controller.dto.GameDTO;
 
@@ -82,5 +79,17 @@ public class GameController {
         User deleteUser = userDAO.deleteUser(id);
         return userToDTO(deleteUser);
     }
+
+    // JPA
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @GetMapping("/JPA")
+    public Iterable<User> getAllUsers(){
+        return userRepository.findAll();
+    }
+
+
 
 }
