@@ -3,6 +3,7 @@ package com.example.demo.squaregames.DAO;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "user")
 public class User {
 
     @Id
@@ -13,12 +14,12 @@ public class User {
 
     public User(){}
 
-    public User(String firstName, String lastName, int age, int id){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-        this.id = id;
-    }
+//    public User(String firstName, String lastName, int age, int id){
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//        this.age = age;
+//        this.id = id;
+//    }
 
     public int getId(){
         return id;

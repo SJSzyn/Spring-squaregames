@@ -5,6 +5,7 @@ import com.example.demo.squaregames.service.GameService;
 import com.example.demo.squaregames.controller.dto.GameDTO;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -35,8 +36,11 @@ public class GameController {
         return gameService.getGame(gameId);
     }
 
-    // TODO Make POST GET PUT DELETE
-    // DAO Creation
+    // ========================================================
+    // = JDBC | DB spring | Table User
+    // ========================================================
+    // TODO Get rid of the stuff so that just the return is there
+
     @Autowired
     private UserDAO userDAO;
 
@@ -51,12 +55,6 @@ public class GameController {
                 .toList();
     }
 
-    @PostMapping("/users")
-    public UserDTO add(@RequestBody UserCreationParam param){
-        User addedUser = userDAO.addUser(param);
-        return userToDTO(addedUser);
-    }
-
     @GetMapping("/users")
     public Collection<UserDTO> getAll(){
         return toDTOList(userDAO.getAllUsers());
@@ -66,6 +64,12 @@ public class GameController {
     public UserDTO get(@PathVariable int id){
         User user = userDAO.getUserById(id);
         return userToDTO(user);
+    }
+
+    @PostMapping("/users")
+    public UserDTO add(@RequestBody UserCreationParam param){
+        User addedUser = userDAO.addUser(param);
+        return userToDTO(addedUser);
     }
 
     @PutMapping("/users/{id}")
@@ -80,7 +84,9 @@ public class GameController {
         return userToDTO(deleteUser);
     }
 
-    // JPA
+    // ========================================================
+    // = JPA | DB spring | table user
+    // ========================================================
 
     @Autowired
     private UserRepository userRepository;
@@ -90,6 +96,30 @@ public class GameController {
         return userRepository.findAll();
     }
 
+    @GetMapping("/JPA/{id}")
+    public Optional<User> getUserById(@PathVariable Integer id){
+        return userRepository.findById(id);
+    }
 
+    @PostMapping("/JPA")
+    public User createUser(@RequestBody User newUser) {
+        return userRepository.save(newUser);
+    }
+
+    @PutMapping("/JPA/{id}")
+    public User updateUser(@PathVariable Integer id, @RequestBody User UserRepository) {
+        User user = userRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
+        user.setFirstName(UserRepository.getFirstName());
+        user.setLastName(UserRepository.getLastName());
+        user.setAge(UserRepository.getAge());
+        return userRepository.save(user);
+    }
+
+    @DeleteMapping("/JPA/{id}")
+    public ResponseEntity<?> deleteUser(@PathVariable Integer id) {
+        userRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
+        userRepository.deleteById(id);
+        return ResponseEntity.ok().build();
+    }
 
 }

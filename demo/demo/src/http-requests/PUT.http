@@ -1,4 +1,4 @@
-PUT http://localhost:8080/users/15
+PUT http://localhost:8080/JPA/1
 Content-Type: application/json
 
 {
