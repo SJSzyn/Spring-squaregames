@@ -1,7 +1,7 @@
 package com.example.demo.squaregames;
 
 
-import com.example.demo.squaregames.DAO.DBAccess;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

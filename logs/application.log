@@ -981,3 +981,442 @@ Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations al
 2024-02-29 12:24:03,338 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-5] ಠ‿↼ : User found with ID: 1
 2024-02-29 12:24:04,075 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-8] ಠ‿↼ : Executing query to find user with ID: 1
 2024-02-29 12:24:04,078 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-8] ಠ‿↼ : User found with ID: 1
+2024-02-29 12:28:56,847 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 12:28:56,857 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 12:28:56,928 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 13:28:30,534 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 16656 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 13:28:30,536 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 13:28:30,537 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 13:28:31,157 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 13:28:31,237 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-02-29 13:28:31,665 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 13:28:31,677 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 13:28:31,678 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 13:28:31,678 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 13:28:31,735 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 13:28:31,735 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1151 ms
+2024-02-29 13:28:31,857 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 13:28:31,937 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 13:28:31,980 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 13:28:32,223 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 13:28:32,249 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 13:28:32,637 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ba562e0
+2024-02-29 13:28:32,639 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 13:28:33,437 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 13:28:33,502 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 13:28:33,748 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 13:28:34,019 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 13:28:34,034 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 13:28:34,047 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.898 seconds (process running for 4.867)
+2024-02-29 13:28:34,050 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 13:46:41,189 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 13:46:41,226 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 13:46:41,290 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 13:46:44,793 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 15816 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 13:46:44,795 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 13:46:44,796 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 13:46:45,338 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 13:46:45,377 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2024-02-29 13:46:45,761 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 13:46:45,771 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 13:46:45,772 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 13:46:45,773 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 13:46:45,822 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 13:46:45,823 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 990 ms
+2024-02-29 13:46:45,949 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 13:46:46,022 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 13:46:46,067 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 13:46:46,292 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 13:46:46,317 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 13:46:46,674 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cc9bd9b
+2024-02-29 13:46:46,676 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 13:46:47,493 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 13:46:47,563 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 13:46:47,786 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 13:46:48,044 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 13:46:48,060 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 13:46:48,065 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.6 seconds (process running for 4.307)
+2024-02-29 13:46:48,067 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 13:46:56,258 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-29 13:46:56,259 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-29 13:46:56,261 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-02-29 13:46:56,292 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : Executing query to find user with ID: 1
+2024-02-29 13:46:56,301 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : User found with ID: 1
+2024-02-29 13:47:01,698 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-3] ಠ‿↼ : Executing query to find user with ID: 1
+2024-02-29 13:47:01,703 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-3] ಠ‿↼ : User found with ID: 1
+2024-02-29 13:47:27,634 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-5] ಠ‿↼ : Attempting to add new user: Tom Bradey 39
+2024-02-29 13:47:27,672 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-5] ಠ‿↼ : User added successfully with ID: 12
+2024-02-29 13:47:35,409 ERROR c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-10] (ಥ﹏ಥ) : Error occurred while finding user with ID: 12. Error: No operations allowed after connection closed.
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1659)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1575)
+	at com.example.demo.squaregames.DAO.MySQLUserDAOJDBC.getUserById(MySQLUserDAOJDBC.java:58)
+	at com.example.demo.squaregames.controller.GameController.get(GameController.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:1171)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:576)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1590)
+	... 51 common frames omitted
+2024-02-29 13:47:35,414 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.demo.squaregames.DAO.User.getFirstName()" because "user" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.demo.squaregames.DAO.User.getFirstName()" because "user" is null
+	at com.example.demo.squaregames.controller.GameController.userToDTO(GameController.java:44)
+	at com.example.demo.squaregames.controller.GameController.get(GameController.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-02-29 13:50:19,339 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 13:50:19,364 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 13:50:19,438 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 13:50:36,007 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 6620 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 13:50:36,009 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 13:50:36,009 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 13:50:36,517 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 13:50:36,561 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-02-29 13:50:36,989 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 13:50:36,998 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 13:50:37,000 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 13:50:37,000 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 13:50:37,051 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 13:50:37,051 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1011 ms
+2024-02-29 13:50:37,180 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 13:50:37,257 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 13:50:37,294 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 13:50:37,577 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 13:50:37,604 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 13:50:37,957 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a3643e3
+2024-02-29 13:50:37,959 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 13:50:39,199 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 13:50:39,259 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 13:50:39,532 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 13:50:39,808 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 13:50:39,826 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 13:50:39,836 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 4.192 seconds (process running for 4.99)
+2024-02-29 13:50:39,840 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 13:56:06,364 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 13:56:06,395 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 13:56:06,450 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 13:56:10,077 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 2204 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 13:56:10,078 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 13:56:10,079 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 13:56:10,625 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 13:56:10,664 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2024-02-29 13:56:11,047 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 13:56:11,056 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 13:56:11,058 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 13:56:11,058 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 13:56:11,107 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 13:56:11,107 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 984 ms
+2024-02-29 13:56:11,228 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 13:56:11,297 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 13:56:11,338 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 13:56:11,576 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 13:56:11,604 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 13:56:11,966 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7858d31d
+2024-02-29 13:56:11,967 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 13:56:12,768 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 13:56:12,838 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 13:56:13,064 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 13:56:13,310 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 13:56:13,323 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 13:56:13,329 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.582 seconds (process running for 4.327)
+2024-02-29 13:56:13,331 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 14:26:26,204 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:26:26,243 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 14:26:26,266 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 14:26:34,588 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 7160 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 14:26:34,589 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 14:26:34,590 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 14:26:35,172 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 14:26:35,216 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2024-02-29 14:26:35,618 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 14:26:35,628 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:26:35,629 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 14:26:35,629 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 14:26:35,678 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 14:26:35,679 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1055 ms
+2024-02-29 14:26:35,809 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 14:26:35,888 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 14:26:35,926 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 14:26:36,195 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 14:26:36,221 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 14:26:36,561 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32a033b6
+2024-02-29 14:26:36,563 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 14:26:37,368 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 14:26:37,436 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:26:37,676 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 14:26:37,947 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:26:37,963 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 14:26:37,968 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.773 seconds (process running for 4.754)
+2024-02-29 14:26:37,970 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 14:27:06,842 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-29 14:27:06,843 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-29 14:27:06,845 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-02-29 14:27:26,351 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-2] ಠ‿↼ : Attempting to retrieve all users
+2024-02-29 14:27:26,357 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-2] ಠ‿↼ : Successfully retrieved all users
+2024-02-29 14:36:33,485 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:36:33,548 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 14:36:33,611 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 14:36:41,746 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 22588 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 14:36:41,748 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 14:36:41,749 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 14:36:42,294 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 14:36:42,333 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2024-02-29 14:36:42,850 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 14:36:42,859 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:36:42,862 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 14:36:42,862 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 14:36:42,911 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 14:36:42,912 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1119 ms
+2024-02-29 14:36:43,038 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 14:36:43,112 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 14:36:43,148 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 14:36:43,380 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 14:36:43,406 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 14:36:43,749 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f471037
+2024-02-29 14:36:43,751 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 14:36:44,552 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 14:36:44,611 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:36:44,845 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 14:36:45,091 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:36:45,106 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 14:36:45,112 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.745 seconds (process running for 4.501)
+2024-02-29 14:36:45,114 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 14:37:39,286 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-29 14:37:39,287 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-29 14:37:39,288 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-02-29 14:37:39,383 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : Attempting to update user with ID: 10
+2024-02-29 14:37:39,435 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : Executing query to find user with ID: 10
+2024-02-29 14:37:39,439 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : User found with ID: 10
+2024-02-29 14:37:39,439 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : User with ID: 10 updated successfully
+2024-02-29 14:37:53,831 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-2] ಠ‿↼ : Attempting to retrieve all users
+2024-02-29 14:37:53,836 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-2] ಠ‿↼ : Successfully retrieved all users
+2024-02-29 14:38:57,366 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : Attempting to add new user: Mister Beast 25
+2024-02-29 14:38:57,402 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : User added successfully with ID: 14
+2024-02-29 14:39:08,499 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-7] ಠ‿↼ : Attempting to retrieve all users
+2024-02-29 14:39:08,502 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-7] ಠ‿↼ : Successfully retrieved all users
+2024-02-29 14:39:46,821 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:39:46,826 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 14:39:46,873 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 14:39:54,276 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 19056 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 14:39:54,278 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 14:39:54,279 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 14:39:54,879 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 14:39:54,932 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2024-02-29 14:39:55,342 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 14:39:55,352 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:39:55,354 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 14:39:55,354 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 14:39:55,403 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 14:39:55,403 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1089 ms
+2024-02-29 14:39:55,533 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 14:39:55,650 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 14:39:55,700 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 14:39:55,939 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 14:39:55,966 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 14:39:56,319 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e50eeb9
+2024-02-29 14:39:56,321 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 14:39:57,175 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 14:39:57,241 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:39:57,501 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 14:39:57,796 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:39:57,817 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 14:39:57,823 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.936 seconds (process running for 4.874)
+2024-02-29 14:39:57,825 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 14:42:45,688 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-29 14:42:45,688 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-29 14:42:45,690 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-02-29 14:42:45,776 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : Attempting to delete user with ID: 6
+2024-02-29 14:42:45,777 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : Executing query to find user with ID: 6
+2024-02-29 14:42:45,782 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : User found with ID: 6
+2024-02-29 14:42:45,830 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : User with ID: 6 deleted successfully
+2024-02-29 14:42:54,672 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : Attempting to delete user with ID: 10
+2024-02-29 14:42:54,672 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : Executing query to find user with ID: 10
+2024-02-29 14:42:54,676 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : User found with ID: 10
+2024-02-29 14:42:54,704 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : User with ID: 10 deleted successfully
+2024-02-29 14:43:05,179 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-8] ಠ‿↼ : Attempting to retrieve all users
+2024-02-29 14:43:05,183 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-8] ಠ‿↼ : Successfully retrieved all users
+2024-02-29 14:47:15,901 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:47:15,936 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 14:47:15,995 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 14:47:30,432 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 28492 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 14:47:30,434 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 14:47:30,434 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 14:47:30,957 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 14:47:30,998 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2024-02-29 14:47:31,391 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 14:47:31,401 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:47:31,402 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 14:47:31,403 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 14:47:31,451 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 14:47:31,451 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 975 ms
+2024-02-29 14:47:31,571 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 14:47:31,639 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 14:47:31,683 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 14:47:31,914 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 14:47:31,942 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 14:47:32,283 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@782e6b40
+2024-02-29 14:47:32,285 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 14:47:33,091 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 14:47:33,150 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:47:33,378 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 14:47:33,627 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:47:33,641 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 14:47:33,647 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.557 seconds (process running for 4.3)
+2024-02-29 14:47:33,649 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 14:47:46,907 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-29 14:47:46,908 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-29 14:47:46,909 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-02-29 14:47:46,954 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : Executing query to find user with ID: 1
+2024-02-29 14:47:46,959 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : User found with ID: 1
+2024-02-29 14:51:05,049 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:51:05,082 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-29 14:51:05,139 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-29 14:51:29,800 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 21.0.2 with PID 6524 (C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames\demo\demo\target\classes started by serge.szynkarski in C:\Users\serge.szynkarski\Desktop\Spring\Spring-squaregames)
+2024-02-29 14:51:29,802 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-29 14:51:29,803 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-29 14:51:30,315 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 14:51:30,355 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2024-02-29 14:51:30,727 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-29 14:51:30,736 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:51:30,738 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-29 14:51:30,739 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-29 14:51:30,789 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-29 14:51:30,789 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 953 ms
+2024-02-29 14:51:30,912 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29 14:51:30,984 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-29 14:51:31,020 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-29 14:51:31,247 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29 14:51:31,272 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-29 14:51:31,613 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61dd1c3d
+2024-02-29 14:51:31,615 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-29 14:51:32,424 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29 14:51:32,487 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 14:51:32,699 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 14:51:32,961 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-29 14:51:32,976 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-29 14:51:32,982 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.517 seconds (process running for 4.264)
+2024-02-29 14:51:32,984 INFO c.e.d.s.DemoApplication [main] (ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ 
+2024-02-29 14:51:40,149 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-29 14:51:40,149 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-29 14:51:40,151 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-02-29 14:51:40,179 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : Attempting to retrieve all users
+2024-02-29 14:51:40,207 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-1] ಠ‿↼ : Successfully retrieved all users
+2024-02-29 14:51:46,334 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-3] ಠ‿↼ : Executing query to find user with ID: 14
+2024-02-29 14:51:46,338 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-3] ಠ‿↼ : User found with ID: 14
+2024-02-29 14:52:00,423 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-5] ಠ‿↼ : Attempting to add new user: Delet Me 25
+2024-02-29 14:52:00,480 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-5] ಠ‿↼ : User added successfully with ID: 15
+2024-02-29 14:52:19,181 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : Attempting to update user with ID: 15
+2024-02-29 14:52:19,243 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : Executing query to find user with ID: 15
+2024-02-29 14:52:19,245 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : User found with ID: 15
+2024-02-29 14:52:19,245 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-4] ಠ‿↼ : User with ID: 15 updated successfully
+2024-02-29 14:52:28,339 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-8] ಠ‿↼ : Attempting to delete user with ID: 15
+2024-02-29 14:52:28,363 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-8] ಠ‿↼ : Executing query to find user with ID: 15
+2024-02-29 14:52:28,365 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-8] ಠ‿↼ : User found with ID: 15
+2024-02-29 14:52:28,398 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-8] ಠ‿↼ : User with ID: 15 deleted successfully
+2024-02-29 14:52:34,556 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-10] ಠ‿↼ : Attempting to retrieve all users
+2024-02-29 14:52:34,577 INFO c.e.d.s.D.MySQLUserDAOJDBC [http-nio-8080-exec-10] ಠ‿↼ : Successfully retrieved all users
