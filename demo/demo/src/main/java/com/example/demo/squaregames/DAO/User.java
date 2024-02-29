@@ -13,12 +13,12 @@ public class User {
 
     public User(){}
 
-//    public User(String firstName, String lastName, int age, int id){
-//        this.firstName = firstName;
-//        this.lastName = lastName;
-//        this.age = age;
-//        this.id = id;
-//    }
+    public User(String firstName, String lastName, int age, int id){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.id = id;
+    }
 
     public int getId(){
         return id;
