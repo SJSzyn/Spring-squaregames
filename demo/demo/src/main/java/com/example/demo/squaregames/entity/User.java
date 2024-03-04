@@ -1,12 +1,13 @@
-package com.example.demo.squaregames.DAO;
+package com.example.demo.squaregames.entity;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "\"User\"")
 public class User {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String firstName;
     private String lastName;

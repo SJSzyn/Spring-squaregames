@@ -1,8 +1,8 @@
-POST http://localhost:8080/users
+POST http://localhost:9090/test
 Content-Type: application/json
 
 {
-  "firstName": "Mister",
-  "lastName": "Bean",
-  "age": 47
+  "firstName": "As",
+  "lastName": "Tatter",
+  "age": 20
 }
