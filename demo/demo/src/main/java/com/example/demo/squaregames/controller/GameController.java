@@ -1,8 +1,14 @@
 package com.example.demo.squaregames.controller;
 
-import com.example.demo.squaregames.DAO.*;
+import com.example.demo.squaregames.dao.*;
+import com.example.demo.squaregames.dto.GameCreationParams;
+import com.example.demo.squaregames.dto.UserCreationParam;
+import com.example.demo.squaregames.dto.UserDTO;
+import com.example.demo.squaregames.entity.User;
+import com.example.demo.squaregames.plugin.GamePlugin;
+import com.example.demo.squaregames.repository.UserRepository;
 import com.example.demo.squaregames.service.GameService;
-import com.example.demo.squaregames.controller.dto.GameDTO;
+import com.example.demo.squaregames.dto.GameDTO;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -35,6 +41,25 @@ public class GameController {
     public GameDTO getGame(@PathVariable String gameId) {
         return gameService.getGame(gameId);
     }
+
+    // ========================================================
+    // = Plugin for languages
+    // ========================================================
+
+    @Autowired
+    private List<GamePlugin> gamePlugin;
+
+    @GetMapping("/lang")
+    public List<String> headerTest(@RequestHeader("Accept-Language") Locale locale){
+        return gamePlugin.stream().map(e -> e.getName(locale)).toList();
+    }
+
+    @GetMapping("/games2")
+    public Collection<GamePlugin> getListGamePlugin(){
+        return gamePlugin;
+    }
+
+
 
     // ========================================================
     // = JDBC | DB spring | Table User
@@ -85,7 +110,7 @@ public class GameController {
     }
 
     // ========================================================
-    // = JPA | DB spring | table user
+    // = JPA | DB spring | 2able user
     // ========================================================
 
     @Autowired
@@ -121,5 +146,9 @@ public class GameController {
         userRepository.deleteById(id);
         return ResponseEntity.ok().build();
     }
+
+    // ========================================================
+    // = H2 | DB | Table
+    // ========================================================
 
 }

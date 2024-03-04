@@ -1,7 +1,9 @@
-package com.example.demo.squaregames.DAO;
+package com.example.demo.squaregames.dao;
+
+import com.example.demo.squaregames.dto.UserCreationParam;
+import com.example.demo.squaregames.entity.User;
 
 import java.util.List;
-import java.util.UUID;
 
 public interface UserDAO{
     public List<User> getAllUsers();

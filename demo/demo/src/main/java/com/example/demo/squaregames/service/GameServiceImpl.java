@@ -1,7 +1,7 @@
 package com.example.demo.squaregames.service;
 
-import com.example.demo.squaregames.controller.GameCreationParams;
-import com.example.demo.squaregames.controller.dto.GameDTO;
+import com.example.demo.squaregames.dto.GameCreationParams;
+import com.example.demo.squaregames.dto.GameDTO;
 import com.example.demo.squaregames.service.game_catalog.GameCatalog;
 
 import fr.le_campus_numerique.square_games.engine.Game;

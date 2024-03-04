@@ -1,10 +1,7 @@
 package com.example.demo.squaregames;
 
-
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -19,16 +16,5 @@ public class DemoApplication{
 
 		LOGGER.info("(ง'̀-'́)ง BEEP BOOP, WE ARE ONLINE SJ, TIME TO GET BUSY! (づ｡◕‿‿◕｡)づ ");
 	}
-
-//		@Override
-//		public void run(String... args) throws Exception{
-//			DBAccess dbAccess = DBAccess.getInstance();
-//			if (dbAccess.getConnection() != null){
-//				System.out.println("It worked");
-//			} else {
-//				System.out.println("NOOO");
-//			}
-//		}
-
 
 }

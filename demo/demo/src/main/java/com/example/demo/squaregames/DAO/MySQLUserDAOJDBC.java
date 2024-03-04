@@ -1,5 +1,7 @@
-package com.example.demo.squaregames.DAO;
+package com.example.demo.squaregames.dao;
 
+import com.example.demo.squaregames.dto.UserCreationParam;
+import com.example.demo.squaregames.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -7,7 +9,6 @@ import org.springframework.stereotype.Service;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class MySQLUserDAOJDBC implements UserDAO {
