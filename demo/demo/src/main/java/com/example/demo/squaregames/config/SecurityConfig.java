@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -12,13 +13,17 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-@Configuration
+@Configuration // executes first
 @EnableWebSecurity
 public class SecurityConfig {
 
     @Autowired
-    AuthenticationConfiguration authenticationConfiguration;
+    private AuthenticationConfiguration authenticationConfiguration;
+
+//    @Autowired
+//    private JwtAuthFilter jwtAuthFilter;
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -27,7 +32,6 @@ public class SecurityConfig {
 
     @Bean
     public AuthenticationManager authenticationManager(){
-        // TODO (ง'̀-'́)ง
         try {
             return authenticationConfiguration.getAuthenticationManager();
         } catch (Exception e) {
@@ -38,13 +42,13 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
-        http.csrf(csrf -> csrf.disable()); // Disable CSRF protection
-
-        http.sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS)); // session management = stateless
-
-        // http.authorizeHttpRequests(auth -> auth.)
+        http
+                .csrf(csrf -> csrf.disable())
+                .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .authorizeHttpRequests(auth -> auth.anyRequest().authenticated())
+//                .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
+                .httpBasic(Customizer.withDefaults());
         return http.build();
-
 
         // Example to get permission for all requests
 //       http.authorizeHttpRequests().anyRequest().permitAll()
@@ -52,18 +56,6 @@ public class SecurityConfig {
 //                .and().httpBasic();
 //        return http.build();
 
-
-
-        // Example to deny permission for all requests
-//        http.authorizeHttpRequests().anyRequest().denyAll()
-//                .and().formLogin()
-//                .and().httpBasic();
-//        return http.build();
-
-
     }
-
-
-
 
 }
