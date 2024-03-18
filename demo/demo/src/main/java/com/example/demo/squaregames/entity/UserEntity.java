@@ -15,7 +15,7 @@ public class UserEntity implements UserDetails {
     private int id;
     private String firstName;
     private String lastName;
-    private int age; // test
+    private int age;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
