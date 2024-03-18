@@ -1,11 +1,13 @@
 package com.example.demo.squaregames.repository;
 
-import com.example.demo.squaregames.entity.UserAuth;
+import com.example.demo.squaregames.entity.UserEntity;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
-public interface UserRepositoryAuth extends CrudRepository<UserAuth, Integer> {
+@Repository
+public interface UserRepositoryAuth extends CrudRepository<UserEntity, Integer> {
 
-    Optional<UserAuth> findByUsername(String username);
+    Optional<UserEntity> findByUsername(String username);
 }

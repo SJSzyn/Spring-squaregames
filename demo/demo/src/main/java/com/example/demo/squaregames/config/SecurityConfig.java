@@ -22,6 +22,7 @@ public class SecurityConfig {
     @Autowired
     private AuthenticationConfiguration authenticationConfiguration;
 
+
 //    @Autowired
 //    private JwtAuthFilter jwtAuthFilter;
 
@@ -46,7 +47,7 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth.anyRequest().authenticated())
-//                .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
+//                .addFilterBefore(new JwtTokenAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)
                 .httpBasic(Customizer.withDefaults());
         return http.build();
 
